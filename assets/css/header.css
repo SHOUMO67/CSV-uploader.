@@ -1,0 +1,44 @@
+
+#layout-header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    background-image:  linear-gradient(to left, #eb1ec9, rgba(255, 255, 255, 0.899), #e72f4e);
+    color: rgb(214, 189, 255);
+    box-shadow: 7px 6px 12px 2px rgb(233, 96, 235);
+  }
+
+  
+
+
+  #layout-header nav .mini-logo p {
+    margin: 16px;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  
+  #layout-header nav .auth-links ul {
+    margin: 5% 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+  }
+  
+  #layout-header nav .auth-links ul li {
+    margin-right: 30px;
+  }
+  
+  #layout-header nav a {
+    color: #7903f0;
+    text-decoration: none;
+    text-shadow: 7px 3px 3px rgb(239, 219, 34);
+  }
+  #layout-header nav a:hover{
+    transform: scale(1.6);
+    transition: ease-in 0.3s;
+    text-shadow: 7px 6px 6px rgb(179, 0, 255);
+    color: rgb(255, 200, 0);
+  }
+
+  

@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: linear-gradient(to left, #00ffb7, #00b7ff);
+    color: white;
+}
+  
+  body #layout-main {
+    min-height: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
